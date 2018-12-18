@@ -20,6 +20,35 @@ cd monero/
 USE_SINGLE_BUILDDIR=1 make
 ```
 
+## Example compilation on Arch
 
+```bash
+sudo pacman -Syu git base-devel boost cmake miniupnpc unbound libunwind openssl hidapi zeromq readline xz graphviz libsodium
+
+# go to home folder
+cd ~
+
+git clone --recurse-submodules https://github.com/monero-project/monero
+
+cd monero/
+
+USE_SINGLE_BUILDDIR=1 make
+```
+
+
+## Example compilation on Fedora 29
+
+```bash
+sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-devel unbound-devel libsodium-devel libunwind-devel xz-devel hidapi-devel
+
+# go to home folder
+cd ~
+
+git clone --recurse-submodules https://github.com/monero-project/monero
+
+cd monero/
+
+USE_SINGLE_BUILDDIR=1 make
+```
 
 
