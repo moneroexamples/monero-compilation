@@ -1,6 +1,6 @@
 # monero-compilation
 
-Basic instruction on compliation of monero v0.14.0.0 (monero branch `release-v0.13`) 
+Basic instruction on compliation of monero v0.14.0.2 (monero branch `release-v0.13`) 
 for use in moneroexamples projects.
 
 ## Example compilation on Ubuntu 18.04
