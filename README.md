@@ -3,7 +3,7 @@
 Basic instruction on compliation of monero v0.14.1 (monero branch `release-v0.14`) 
 for use in moneroexamples projects.
 
-## Example compilation of Monero v0.14.0.2 on Ubuntu 18.04
+## Example compilation of Monero on Ubuntu 18.04
 
 ```bash
 # first install monero dependecines
