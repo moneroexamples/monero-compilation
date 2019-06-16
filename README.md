@@ -1,6 +1,6 @@
 # monero-compilation
 
-Basic instruction on compliation of monero v0.14.0.2 (monero branch `release-v0.13`) 
+Basic instruction on compliation of monero v0.14.1 (monero branch `release-v0.14`) 
 for use in moneroexamples projects.
 
 ## Example compilation of Monero v0.14.0.2 on Ubuntu 18.04
@@ -13,7 +13,7 @@ sudo apt install git build-essential cmake libboost-all-dev miniupnpc libunbound
 
 # go to home folder
 cd ~
-git clone --recursive -b release-v0.13 https://github.com/monero-project/monero.git
+git clone --recursive -b release-v0.14 https://github.com/monero-project/monero.git
 
 cd monero/
 
