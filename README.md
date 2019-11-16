@@ -47,7 +47,7 @@ sudo pacman -Syu git base-devel boost cmake miniupnpc unbound libunwind openssl 
 # go to home folder
 cd ~
 
-git clone --recursive -b release-v0.13 https://github.com/monero-project/monero.git
+git clone --recurse-submodules https://github.com/monero-project/monero.git
 
 cd monero/
 
