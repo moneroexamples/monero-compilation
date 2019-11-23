@@ -1,6 +1,6 @@
 # monero-compilation
 
-Basic instruction on compliation of monero v0.14.1 (monero branch `release-v0.14`) 
+Basic instruction on compliation of monero v0.15 (monero branch `release-v0.15`) 
 for use in moneroexamples projects.
 
 ## Example compilation of Monero on Ubuntu 18.04
@@ -13,7 +13,7 @@ sudo apt install git build-essential cmake libboost-all-dev miniupnpc libunbound
 
 # go to home folder
 cd ~
-git clone --recursive -b release-v0.14 https://github.com/monero-project/monero.git
+git clone --recursive -b release-v0.15 https://github.com/monero-project/monero.git
 
 cd monero/
 
@@ -39,7 +39,7 @@ USE_SINGLE_BUILDDIR=1 make
 ```
 
 
-## Example compilation on Arch
+## Example compilation of master branch (i.e., development version of Monero) on Arch
 
 ```bash
 sudo pacman -Syu git base-devel boost cmake miniupnpc unbound libunwind openssl hidapi zeromq readline xz graphviz libsodium
@@ -63,7 +63,7 @@ sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-deve
 # go to home folder
 cd ~
 
-git clone --recursive -b release-v0.13 https://github.com/monero-project/monero.git
+git clone --recursive -b release-v0.15 https://github.com/monero-project/monero.git
 
 cd monero/
 
