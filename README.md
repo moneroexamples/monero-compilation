@@ -55,7 +55,7 @@ USE_SINGLE_BUILDDIR=1 make
 ```
 
 
-## Example compilation on Fedora 32
+## Example compilation on Fedora 35
 
 ```bash
 sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-devel unbound-devel libsodium-devel libunwind-devel xz-devel hidapi-devel make libatomic curlpp-devel
@@ -63,7 +63,7 @@ sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-deve
 # go to home folder
 cd ~
 
-git clone --recursive -b release-v0.17 https://github.com/monero-project/monero.git
+git clone --recurse-submodules  -b release-v0.17 https://github.com/monero-project/monero.git
 
 cd monero/
 
