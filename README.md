@@ -58,7 +58,7 @@ USE_SINGLE_BUILDDIR=1 make
 ## Example compilation on Fedora 35
 
 ```bash
-sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-devel unbound-devel libsodium-devel libunwind-devel xz-devel hidapi-devel make libatomic curlpp-devel
+sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-devel unbound-devel libsodium-devel libunwind-devel xz-devel hidapi-devel make libatomic curlpp-devel miniupnpc
 
 # go to home folder
 cd ~
