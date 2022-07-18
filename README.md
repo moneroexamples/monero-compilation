@@ -1,6 +1,6 @@
 # monero-compilation
 
-Basic instruction on compliation of monero v0.17 (monero branch `release-v0.17`) 
+Basic instruction on compliation of monero v0.18 (monero branch `release-v0.18`) 
 for use in moneroexamples projects.
 
 ## Example compilation of Monero on Ubuntu 20.04
@@ -13,7 +13,7 @@ sudo apt install git build-essential cmake libboost-all-dev miniupnpc libunbound
 
 # go to home folder
 cd ~
-git clone --recursive -b release-v0.17 https://github.com/monero-project/monero.git
+git clone --recursive -b release-v0.18 https://github.com/monero-project/monero.git
 
 cd monero/
 
@@ -63,7 +63,7 @@ sudo dnf install git gcc-c++ cmake boost-devel pkgconf openssl-devel cppzmq-deve
 # go to home folder
 cd ~
 
-git clone --recurse-submodules  -b release-v0.17 https://github.com/monero-project/monero.git
+git clone --recurse-submodules  -b release-v0.18 https://github.com/monero-project/monero.git
 
 cd monero/
 
