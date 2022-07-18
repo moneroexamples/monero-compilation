@@ -3,7 +3,7 @@
 Basic instruction on compliation of monero v0.18 (monero branch `release-v0.18`) 
 for use in moneroexamples projects.
 
-## Example compilation of Monero on Ubuntu 20.04
+## Example compilation of Monero on Ubuntu 22.04
 
 ```bash
 # first install monero dependecines
@@ -21,7 +21,7 @@ USE_SINGLE_BUILDDIR=1 make
 ```
 
 
-## Example compilation of master branch (i.e., development version of Monero) on Ubuntu 20.04
+## Example compilation of master branch (i.e., development version of Monero) on Ubuntu 22.04
 
 ```bash
 # first install monero dependecines
