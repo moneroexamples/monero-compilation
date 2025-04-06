@@ -21,7 +21,7 @@ USE_SINGLE_BUILDDIR=1 make
 ```
 
 
-## Example compilation of master branch (i.e., development version of Monero) on Ubuntu 22.04
+## Example compilation of master branch (i.e., development version of Monero) on Ubuntu 24.04
 
 ```bash
 # first install monero dependecines
