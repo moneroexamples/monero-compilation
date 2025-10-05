@@ -42,7 +42,7 @@ USE_SINGLE_BUILDDIR=1 make
 ## Example compilation of master branch (i.e., development version of Monero) on Arch
 
 ```bash
-sudo pacman -Syu git base-devel boost cmake miniupnpc unbound libunwind openssl hidapi zeromq readline xz graphviz libsodium gtest
+sudo pacman -Syu git base-devel boost cmake miniupnpc unbound libunwind openssl hidapi zeromq readline xz graphviz libsodium gtest asio
 
 # go to home folder
 cd ~
